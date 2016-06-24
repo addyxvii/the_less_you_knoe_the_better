@@ -1,0 +1,9 @@
+h1 The Counted
+ul
+  each bod in body
+    li
+      h2 #{bod.name}
+      h4 #{bod.sex}
+      h4 #{bod.cause}
+      h4 #{bod.month}
+      a(href='/off/' + bod.name) Pay your respects to #{bod.name}
